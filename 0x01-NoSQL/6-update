@@ -1,0 +1,2 @@
+// add a new attr to a document in shcool collection.
+db.school.updateOne({name: "Holberton school"}, {$set: {address: "972 Mission street"}})
